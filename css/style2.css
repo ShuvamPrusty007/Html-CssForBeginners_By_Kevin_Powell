@@ -1,0 +1,29 @@
+body{
+    /* background-color: lightblue; */
+    background-image: url(../images/weather.png);
+    color: white;
+    font-size: 21px;
+}
+
+h1{
+    font-size: 70px;
+    color: #3747b3;
+}
+
+p{
+    color: #2f4c5c;
+}
+
+
+.box{
+    background-image: url(../images/cute-furry-cat.avif);
+    margin: 100px;
+    padding: 200px 100px;
+    
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+
+    background-size: cover;
+
+    background-position: center;
+}

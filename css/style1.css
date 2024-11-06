@@ -1,0 +1,66 @@
+body{
+    background-color: lightblue;
+    color: white;
+    font-size: 21px;
+}
+
+h1{
+    font-size: 70px;
+    color: #3747b3;
+}
+
+p{
+    color: #2f4c5c;
+}
+
+
+/* Box Model Css */
+
+/* 
+    Margin
+    Border
+    Padding
+*/
+
+.box{
+    background: pink;
+    width: 300px;
+
+    margin: 100px;
+    border: 10px solid red;
+    padding: 100px 25px;
+  
+/* Total Width = Margin-Left + Border-Left + Padding-Left + Content Width + Padding-Right + Border-Right + Margin-Right
+Total Width = 100px + 10px + 25px + 300px + 25px + 10px + 100px = 570px */
+
+
+    /* margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 200px; */
+
+    /* border-width: 5px;
+    border-left-color: red;
+    border-left-style: solid;
+
+    border-right-width: 10px;
+    border-right-color: green;
+    border-right-style: solid; */
+
+    /* padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 200px;
+    padding-left: 50px; */
+
+    /* padding: 50px 100px 200px 50px; */
+    /* top right bottom left */
+
+    /* padding: 50px 100px; */
+    /* top-bottom & left-right */
+
+    
+}
+/* marign makes empty space without block */
+/* border is around the element or block */
+/* padding creates empty space with a block */
+
+/* All od these add on the top of the width and height */

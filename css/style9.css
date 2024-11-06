@@ -1,0 +1,81 @@
+* {transition: all ease-in-out 1s}
+body{
+    background-image: url(../images/hamster.jpg);
+    color: #4e476a;
+    font-size: 21px;
+
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}  
+  
+h1{
+    font-size: 70px;
+    color: #3747b3;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+    margin-bottom: 0px; 
+}
+
+h2{
+    margin-top: 0px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    /* float: right; */
+    /* float: inline-start; */
+
+}
+
+/* hex: RRGGBB  0-9 and a-f*/
+/* rgb  0-255 */
+/* rgba a for alpha---> 0 - 1 --->this 'a' acts like opacity only */
+/* hsl works like rgb, hsl stands for 
+hue saturation and lightness  
+A <hue> can be either an <angle> or a <number>.
+hue--> range [0deg, 360deg)
+Saturation  and Lightness are <percentage> or the keyword none
+s and l --> 0 - 100%
+
+hsla ----> again same a means opacity or transparency
+*/
+
+.box1{
+    background-color: pink;
+}
+.box2{
+    background-color: rgba(255,0,0, 0.5);
+}
+.box3{
+    background-color: firebrick;
+}
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: yellow;
+    clear: both;
+}
+.box6{
+    background-color: lime;
+}
+.box7{
+    background-color: hsla(120, 100%, 50%,0.5);
+    width: 250px;
+    height: 250px;
+}
+.box8{
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 250px;
+    height:250px;
+}
+
+.para{
+    margin-top: 0px;
+    color: white;
+    /* font-size: 34px; */
+    font-weight: bold;
+    /* opacity: 0.5; */
+}
+
+

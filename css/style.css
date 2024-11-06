@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+p{
+    color: brown;
+}
+.intro{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+h1{
+    font-size: 70px;
+    color: pink;
+}
+/* div{
+    background-color: pink;
+    width: 500px;
+} */
+/* span{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+} */
+.highlight{
+    background-color: yellow;
+}
+#top-section{
+    background-color: pink;
+}
+#bottom-section{
+    background-color: lightblue;
+}

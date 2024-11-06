@@ -1,0 +1,59 @@
+body{
+    /* background-color: lightblue; */
+    background-image: url(../images/weather.png);
+    color: green;
+    font-size: 21px;
+
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}  
+
+h1{
+    font-size: 70px;
+    color: #3747b3;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+    margin-bottom: 0px; 
+}
+
+h2{
+    margin-top: 0px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    line-height: 1.4;
+
+    font-size: 30px;
+   
+
+    color: firebrick;
+}
+
+
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+/* a:visited{
+    color: darkturquoise;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: blue;
+}
+
+a:focus{
+    color: rgb(0, 128, 15);
+} */
+
+a:hover,
+a:focus{
+    color: #555;
+}

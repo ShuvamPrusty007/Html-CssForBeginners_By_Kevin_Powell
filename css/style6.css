@@ -1,0 +1,53 @@
+body{
+    background-image: url(../images/weather.png);
+    color: #4e476a;
+    font-size: 21px;
+
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+
+    text-align: center;
+}  
+  
+h1{
+    font-size: 70px;
+    color: #3747b3;
+    font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+    margin-bottom: 0px; 
+}
+
+h2{
+    margin-top: 0px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    line-height: 1.4;
+   
+}
+
+
+ol{
+    list-style-type: upper-latin;
+    background-color: lightcyan;
+    padding: 50px;
+
+    list-style-position: inside;
+}
+ol li{
+    background: yellow;
+    margin-bottom: 15px;
+}
+
+ul{
+    /* list-style-image: url(../images/right-arrow.png); */
+    list-style-type: upper-latin;
+    background-color: pink;
+    padding: 50px;
+}
+
+ul li{
+    background: red;
+    margin-bottom: 15px;
+}
